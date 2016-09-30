@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+     nav ul {
+
+            list-style: none;
+            background: lightgray;
+            color: blue;
+    }
+
+     nav ul li:hover > ul{
+        display: inline;
+        padding:0px;
+
+    }
+
+    nav ul li {
+        float: left;
+        padding: 10px;
+        background-color: gray;
+    }
+
+     nav ul ul {
+       display: none;
+     }
+
+     nav ul ul li {
+         float: none;
+         position: relative;
+     }
+
+     nav ul ul li:hover {
+         background-color: green;
+
+     }
+
+</style>
+</head>
+<body>
+<nav>
+<ul>
+    <li>File</li>
+    <li>Open
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    </li>
+    <li>Close
+    <ul>
+        <li>End</li>
+    </ul>
+    </li>
+</ul>
+</nav>
+</body>
+</html>
